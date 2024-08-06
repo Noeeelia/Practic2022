@@ -1,5 +1,5 @@
-### ¡Bienvenido al repositorio del Encriptador de texto!🏆
-# Instructivo de Uso
+# ¡Bienvenido al repositorio del Encriptador de texto!🏆
+### Instructivo de Uso
 
 ## Pasos principales:
 
@@ -15,4 +15,5 @@
 ---
 
 - Grupo 3: 
-**challengeonecodificador3**
+
+**#challengeonecodificador3**
