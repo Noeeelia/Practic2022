@@ -1,0 +1,144 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fdf9c4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fdf9c4;
+}
+
+.titulo {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-texto {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+}
+
+#div-desaparece {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.informacion {
+    font-size: 15px;
+    color: grey;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.encriptar {
+    background-color: #fabfb7;
+    color: #957dad;
+}
+
+.encriptar:hover {
+    background-color: #f79b9b;
+}
+
+.desencriptar {
+    margin-left: 20px;
+    background-color: #957dad;
+    color: #f3dedb;
+}
+
+.desencriptar:hover {
+    background-color: #80608c;
+}
+
+.mensaje-box {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.mensaje {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fabfb7;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+}
+
+.copiar {
+    margin-top: 20px;
+    background-color: #957dad;
+    color: #fdf9c4;
+}
+
+.copiar:hover {
+    background-color: #80608c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: dimgray;
+    background-color: #fdf9c4;
+}
+
+@media screen and (max-width: 768px) {
+    .botones {
+        flex-direction: column;
+    }
+
+    .desencriptar {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .mensaje-box {
+        padding: 0 20px;
+    }
+
+    .mensaje {
+        background-size: 80px;
+    }
+}

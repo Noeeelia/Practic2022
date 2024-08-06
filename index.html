@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logoalura.png" alt="Logo de Alura">
+        <h2 class="titulo">El Encriptador</h2>
+    </header>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div id="div-desaparece">
+                <h6 class="informacion">Ingresa solo letras minúsculas, sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="40" rows="24" placeholder="El resultado aparecera aquí."></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="footer">© 2022 by Noelia Rivas Aguirre - Reservados Todos los derechos</footer>
+    <script src="script.js"></script>
+</body>
+</html>
